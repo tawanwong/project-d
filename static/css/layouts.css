@@ -1,0 +1,98 @@
+/*
+ * Globals
+ */
+
+body,html {
+  font-family: "tahoma",verdana,arial,sans-serif;
+  font-size: 13px;
+  color: #141823;
+  line-height: 1.28;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family:"Tahoma", Arial, serif;
+  font-weight: normal;
+  color: #333;
+}
+
+ 
+.topnav-masthead {
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.topnav-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.topnav-nav-item:hover,
+.topnav-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.topnav-nav .active {
+  color: #fff;
+}
+.topnav-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+.container
+{
+  width: 880px;
+}
+.wrapper
+{
+  margin: 50px auto;
+}
+#blockSection
+{
+
+  background: #fff;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  -webkit-border-radius: 3px;
+}
+.login
+{
+  padding: 20px;
+  width: 600px;
+}
+
+.topicBlock
+{
+  margin: 30px auto;
+  padding: 10px;
+}
+.topicBlock .topicBlockInner
+{
+  display: block;
+}
